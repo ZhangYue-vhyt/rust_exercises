@@ -2,6 +2,7 @@ use std::cmp::max;
 use std::collections::HashMap;
 
 pub fn length_of_longest_substring(s: String) -> i32 {
+    // HashMap:::new() is quicker than HashMap::with_capacity(s.len()).
     let mut hashmap: HashMap<char, usize> = HashMap::new();
     let mut result = 0;
     let mut start_position: usize = 0;

@@ -1,5 +1,6 @@
 use super::list_node::ListNode;
 
+// Too complex to test linkedlist problems.
 pub fn add_two_numbers(
     l1: Option<Box<ListNode>>,
     l2: Option<Box<ListNode>>,
