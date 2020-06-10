@@ -1,4 +1,4 @@
-use list_node::ListNode;
+use super::list_node::ListNode;
 
 pub fn add_two_numbers(
     l1: Option<Box<ListNode>>,
